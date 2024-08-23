@@ -1,0 +1,173 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0; /* Remove a margem padrão */
+    padding-top: 70px; /* Espaço para o cabeçalho fixo */
+}
+
+/* Cabeçalho (Header) */
+.navbar {
+    background-color: #000 !important; /* Fundo preto para o cabeçalho */
+    border-bottom: 2px solid #333; /* Cor um pouco mais clara para a borda inferior */
+    position: fixed; /* Torna o cabeçalho fixo no topo */
+    top: 0; /* Fixa o cabeçalho no topo */
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+    font-weight: bold; /* Destaque para os links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1ecf1 !important; /* Cor de destaque ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Seção Principal (Hero Section) */
+.hero {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 2em; /* Aumente o tamanho da fonte para maior destaque */
+    font-weight: bold; /* Adiciona negrito para maior ênfase */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Seção Sobre Mim */
+#sobre-mim h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#sobre-mim img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #333; /* Adiciona uma borda ao redor da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra à imagem */
+}
+
+#sobre-mim p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Seção Projetos */
+#projetos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.alert-info {
+    background-color: #d1ecf1; /* Cor de fundo azul claro */
+    border-color: #bee5eb; /* Cor da borda azul claro */
+    color: #0c5460; /* Cor do texto azul escuro */
+}
+
+.alert-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.alert p {
+    font-size: 1.2em;
+}
+
+
+/* Seção Habilidades */
+#habilidades h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#habilidades h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #007bff; /* Cor da barra de progresso */
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Seção Contato */
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#contato h4 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#contato .form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 5px; /* Cantos arredondados para os campos */
+}
+
+textarea.form-control {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.btn-primary {
+    background-color: #000; /* Cor de fundo do botão */
+    border-color: #000; /* Cor da borda do botão */
+}
+
+.btn-primary:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse */
+    border-color: #333; /* Cor da borda ao passar o mouse */
+}
+
+
+/* Rodapé (Footer) */
+footer {
+    background-color: #000; /* Fundo preto para o rodapé */
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #d1ecf1; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold; /* Destaque para os links */
+}
+
+footer a:hover {
+    color: #fff; /* Cor dos links ao passar o mouse */
+    text-decoration: underline;
+}
